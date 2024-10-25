@@ -3,10 +3,15 @@ import { TextInput } from 'react-native';
 
 import { styles } from './styles';
 
-export function InputText() {
+interface InputTextProps{
+  pass:string
+}
+
+export function InputText(props: InputTextProps) {
   return (    
       <TextInput style={styles.input}
-      placeholder='pass'>
+      placeholder='pass'
+      value={props.pass}>
       </TextInput>    
   );
 }
