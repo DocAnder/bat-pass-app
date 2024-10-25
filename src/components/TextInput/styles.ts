@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 5,
     padding: 10,
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: 40
   }
 
 
