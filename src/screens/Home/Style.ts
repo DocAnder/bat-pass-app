@@ -10,12 +10,6 @@ const style = StyleSheet.create({
         justifyContent: 'center',
       },
 
-      inputContainer:{
-        paddingTop: 20,
-        width: '80%',
-        alignItems: "center"
-      },
-
       buttonsContainer:{
         // borderWidth: 4,
         width: '80%',
